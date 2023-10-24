@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap");
+
+$Soft-red: hsl(7, 99%, 70%);
+$Yellow: hsl(51, 100%, 49%);
+$Dark-desaturated-cyan: #25564b;
+$Dark-blue: hsl(198, 62%, 26%);
+$Dark-moderate-cyan: hsl(168, 34%, 41%);
+
+// ### Neutral
+
+$Very-dark-desaturated-blue: hsl(212, 27%, 19%);
+$Very-dark-grayish-blue: hsl(213, 9%, 39%);
+$Dark-grayish-blue: hsl(232, 10%, 55%);
+$Grayish-blue: hsl(210, 4%, 67%);
+$White: hsl(0, 0%, 100%);
+
+// ## Typography
+
+$ff-pri: "Montserrat", sans-serif;
+
+$Font-size: 100%;
+
+$fs-xxs: 0.4275rem;
+$fs-xs: 0.5rem;
+$fs-s: 0.7rem;
+$fs-m: 0.825rem;
+$fs-l: 1rem;
+$fs-xl: 1.25rem;
+$fs-xxl: 2.25rem;
+$fs-xxxl: 3.75rem;
+
+$fw-main: 400;
+$fw-bold: 500;
+$fw-dark: 600;
+$fw-darker: 900;

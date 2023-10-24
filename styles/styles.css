@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap");
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role=list],
+ol[role=list] {
+  list-style: none;
+  list-style-type: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+  font-size: 100%;
+}
+
+/* Set core body defaults */
+body {
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  -webkit-text-decoration-skip: ink;
+          text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+.main-display {
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.header {
+  background-color: hsl(212, 27%, 19%);
+}
+.header nav ul {
+  display: flex;
+  align-items: center;
+  padding: 0 1.75rem;
+}
+.header nav ul li {
+  list-style: none;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.05rem;
+  font-size: 1.25rem;
+  color: whitesmoke;
+}
+.header nav ul li img {
+  width: 1.5rem;
+  margin-left: 0.5rem;
+}
+.header nav ul .align-right {
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.main .section {
+  background-color: white;
+}
+.main .section h1 {
+  font-size: 2.25rem;
+  padding: 1.5625rem 1.75rem;
+  line-height: 1.2;
+  font-weight: 400;
+}
+.main .item {
+  background-color: white;
+  position: relative;
+}
+.main .item img {
+  display: block;
+  min-width: 100%;
+}
+.main .item .caption {
+  margin: 1.25rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.main .item .caption p {
+  font-size: 0.825rem;
+  flex: 5;
+}
+.main .item .caption button {
+  border: none;
+  background-color: hsl(7, 99%, 70%);
+  color: whitesmoke;
+  padding: 0.25rem 0.75rem;
+  cursor: pointer;
+  flex: 1;
+}
+.main .item .image-banner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: hsl(7, 99%, 70%);
+  text-transform: uppercase;
+  width: 8rem;
+  text-align: center;
+  padding: 0.45rem 0;
+  color: whitesmoke;
+  font-weight: 900;
+  transition: all 300ms ease-in-out;
+  cursor: pointer;
+}
+.main .item .image-banner:hover {
+  background-color: hsl(212, 27%, 19%);
+  width: 100%;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem 1.75rem;
+  background-color: hsl(212, 27%, 19%);
+}
+.footer p {
+  font-size: 0.825rem;
+  font-weight: 600;
+  color: whitesmoke;
+}
+
+.chatbox {
+  position: fixed;
+  bottom: 0.5rem;
+  right: 1rem;
+  background-color: hsl(51, 100%, 49%);
+  border-radius: 50%;
+  padding: 0.75rem;
+  cursor: pointer;
+  transition: all 300ms ease-in;
+}
+.chatbox:hover {
+  background-color: #ad9300;
+}
+.chatbox img {
+  width: 1.25rem;
+}/*# sourceMappingURL=styles.css.map */
